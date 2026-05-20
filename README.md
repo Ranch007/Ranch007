@@ -1,4 +1,5 @@
 ## Hi there 👋
+![Metrics](/github-metrics.svg)
 ![](./profile-3d-contrib/profile-gitblock.svg)
 <!--
 **Ranch007/Ranch007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
