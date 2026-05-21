@@ -1,4 +1,3 @@
-## Hi there 👋
 <table>
   <tr>
     <td><img src="metrics.left.svg" /></td>
