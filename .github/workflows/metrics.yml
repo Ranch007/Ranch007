@@ -1,5 +1,5 @@
 name: Metrics
-on:
+于:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
   # (optional) Run workflow manually
@@ -70,7 +70,7 @@ jobs:
           plugin_starlists_languages_ignored: html
           plugin_starlists_languages_aliases: Jupyter Notebook:ipynb
           plugin_starlists_limit_repositories: 0
-          plugin_starlists_only: Learning
+
           
           # Contributions calendar
           plugin_isocalendar: yes
