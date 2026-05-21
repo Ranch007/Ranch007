@@ -21,6 +21,7 @@ jobs:
           filename: metrics.left.svg
 
           user: Ranch007
+          base: ""
           template: classic
           config_timezone: Asia/Shanghai
           
@@ -73,9 +74,9 @@ jobs:
           
           # Contributions calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
           # RSS
           plugin_rss: yes
           plugin_rss_source: https://ranch007.github.io/index.xml
-          plugin_rss_limit: 3
+          plugin_rss_limit: 5
