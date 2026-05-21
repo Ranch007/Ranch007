@@ -79,4 +79,4 @@ jobs:
           # RSS
           plugin_rss: yes
           plugin_rss_source: https://ranch007.github.io/index.xml
-          plugin_rss_limit: 5
+          plugin_rss_limit: 3
