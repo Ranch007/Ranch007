@@ -22,19 +22,19 @@ jobs:
           user: Ranch007
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: regular
+          config_display: columns
           config_timezone: Asia/Shanghai
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: quarter
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
           plugin_languages_limit: 8
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
@@ -43,6 +43,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
+          plugin_people_limit: 12
+          plugin_people_size: 24
           plugin_people_types: followers, following
