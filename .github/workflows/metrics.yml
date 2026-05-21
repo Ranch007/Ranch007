@@ -44,12 +44,9 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_ignored: html
 
-          # Recent activity
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_limit: 5
-          plugin_activity_visibility: public
-          plugin_activity_filter: issue, pr, release, comment, fork, ref/create, review
+          # Discussions
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 10
 
 
       - name: right profile
