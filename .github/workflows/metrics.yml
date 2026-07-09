@@ -74,4 +74,36 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Fix SVG mask ID collisions
+        shell: bash
+        run: |
+          # ── Fix left SVG: prefix all IDs with "-left" ──
+          sed -i 's/id="languages-bar"/id="languages-bar-left"/g' metrics.left.svg
+          sed -i 's/#languages-bar)/#languages-bar-left)/g' metrics.left.svg
+          sed -i 's/id="issues-bar"/id="issues-bar-left"/g' metrics.left.svg
+          sed -i 's/#issues-bar)/#issues-bar-left)/g' metrics.left.svg
+          sed -i 's/id="pr-bar"/id="pr-bar-left"/g' metrics.left.svg
+          sed -i 's/#pr-bar)/#pr-bar-left)/g' metrics.left.svg
+          sed -i 's/id="metrics-end"/id="metrics-end-left"/g' metrics.left.svg
+
+          # ── Fix right SVG: prefix all IDs with "-right" ──
+          sed -i 's/id="languages-bar"/id="languages-bar-right"/g' metrics.right.svg
+          sed -i 's/#languages-bar)/#languages-bar-right)/g' metrics.right.svg
+          sed -i 's/id="brightness1"/id="brightness1-right"/g' metrics.right.svg
+          sed -i 's/#brightness1)/#brightness1-right)/g' metrics.right.svg
+          sed -i 's/id="brightness2"/id="brightness2-right"/g' metrics.right.svg
+          sed -i 's/#brightness2)/#brightness2-right)/g' metrics.right.svg
+          sed -i 's/id="metrics-end"/id="metrics-end-right"/g' metrics.right.svg
+
+          # ── Commit fix ──
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add metrics.left.svg metrics.right.svg
+          git diff --staged --quiet || (git commit -m "🐛 Fix SVG mask ID collisions" && git push)
+
 
