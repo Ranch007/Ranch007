@@ -1,6 +1,3 @@
-<table>
-  <tr>
-    <td><img src="metrics.left.svg" /></td>
-    <td><img src="metrics.right.svg" /></td>
-  </tr>
-</table>
+| | |
+|---|---|
+| ![Metrics Left](metrics.left.svg) | ![Metrics Right](metrics.right.svg) |
