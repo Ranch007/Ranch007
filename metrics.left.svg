@@ -20,18 +20,18 @@
                     <section class="column">
                         <h3 class="no-margin-top">Issues</h3>
                         <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="220" height="8">
-                            <mask id="issues-bar">
+                            <mask id="issues-bar-left">
                                 <rect x="0" y="0" width="220" height="8" fill="white" rx="5"/>
                             </mask>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="220" height="8" fill="#238636"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#56d364"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#8B949E"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#c9d1d9"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#8957e5"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#d2a8ff"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#8B949E"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#c9d1d9"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="220" height="8" fill="#238636"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#56d364"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#8B949E"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#c9d1d9"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#8957e5"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#d2a8ff"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#8B949E"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#c9d1d9"/>
                         </svg>
                         <div class="followup legend field fill-width">
                             <div class="field">
@@ -65,18 +65,18 @@
                     <section class="column">
                         <h3 class="no-margin-top">Pull requests</h3>
                         <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="220" height="8">
-                            <mask id="pr-bar">
+                            <mask id="pr-bar-left">
                                 <rect x="0" y="0" width="220" height="8" fill="white" rx="5"/>
                             </mask>
-                            <rect mask="url(#pr-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#238636"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#56d364"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#8B949E"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#c9d1d9"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="18.333333333333332" height="8" fill="#da3633"/>
-                            <rect mask="url(#issues-bar)" x="18.333333333333332" y="0" width="0" height="8" fill="#ff7b72"/>
-                            <rect mask="url(#issues-bar)" x="18.333333333333332" y="0" width="201.66666666666666" height="8" fill="#8957e5"/>
-                            <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#d2a8ff"/>
+                            <rect mask="url(#pr-bar-left)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="0" height="8" fill="#238636"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="0" height="8" fill="#56d364"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="0" height="8" fill="#8B949E"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="0" height="8" fill="#c9d1d9"/>
+                            <rect mask="url(#issues-bar-left)" x="0" y="0" width="18.333333333333332" height="8" fill="#da3633"/>
+                            <rect mask="url(#issues-bar-left)" x="18.333333333333332" y="0" width="0" height="8" fill="#ff7b72"/>
+                            <rect mask="url(#issues-bar-left)" x="18.333333333333332" y="0" width="201.66666666666666" height="8" fill="#8957e5"/>
+                            <rect mask="url(#issues-bar-left)" x="220" y="0" width="0" height="8" fill="#d2a8ff"/>
                         </svg>
                         <div class="followup legend field fill-width">
                             <div class="field">
@@ -119,17 +119,17 @@
             <section class="column">
                 <h3 class="field">Most used languages</h3>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
-                    <mask id="languages-bar">
+                    <mask id="languages-bar-left">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="196.43730051660032" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="196.43730051660032" y="0" width="128.4960679148432" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="324.9333684314435" y="0" width="72.59859826922444" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="397.53196670066797" y="0" width="44.858741074660266" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="442.3907077753282" y="0" width="13.499095126846763" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="455.889802902175" y="0" width="3.0915402586291996" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="458.9813431608042" y="0" width="1.0186568391958146" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar-left)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
+                    <rect mask="url(#languages-bar-left)" x="0" y="0" width="196.43730051660032" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar-left)" x="196.43730051660032" y="0" width="128.4960679148432" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar-left)" x="324.9333684314435" y="0" width="72.59859826922444" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar-left)" x="397.53196670066797" y="0" width="44.858741074660266" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar-left)" x="442.3907077753282" y="0" width="13.499095126846763" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar-left)" x="455.889802902175" y="0" width="3.0915402586291996" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar-left)" x="458.9813431608042" y="0" width="1.0186568391958146" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -216,6 +216,6 @@
                 </div>
             </section>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end-left"></div>
     </foreignObject>
 </svg>
